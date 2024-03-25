@@ -4,10 +4,25 @@ A project building a dynamic web application that queries at least two APIs and 
 
 ## Installation & Dependencies
 
+Start the server
+```
+npm start
+```
+
+Open your web browser and navigate to http://localhost:3000 to access the application.
+
 This project requires the following packages to be installed. To get started, run the following command in your project's root directory:
 
+cors: Middleware for enabling Cross-Origin Resource Sharing (CORS).
+dotenv: Loads environment variables from a .env file.
+express: Fast, unopinionated, minimalist web framework for Node.js.
+express-session: Simple session middleware for Express.js.
+openai: Node.js client library for the OpenAI API.
+spotify-web-api-node: Official Node.js wrapper for the Spotify Web API.
+
 ```
-npm install dotenv express express-session spotify-web-api-node
+npm install cors@^2.8.5 dotenv@^16.4.5 express@^4.18.3 express-session@^1.18.0 openai@^4.29.2 spotify-web-api-node@^5.0.2
+
 ```
 ### Log on to Spotify
 
